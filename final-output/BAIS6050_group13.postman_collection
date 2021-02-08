@@ -1,0 +1,82 @@
+{
+	"info": {
+		"_postman_id": "bd18a528-ed23-4d22-8547-4b903d90870d",
+		"name": "BAIS6050",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "regression-get",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/regression?bathrooms=1&year_built=2000&total_living_area=2000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"regression"
+					],
+					"query": [
+						{
+							"key": "bathrooms",
+							"value": "1"
+						},
+						{
+							"key": "year_built",
+							"value": "2000"
+						},
+						{
+							"key": "total_living_area",
+							"value": "2000"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "regression-post-final",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "bathrooms",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "year_buitl",
+							"value": "2000",
+							"type": "text"
+						},
+						{
+							"key": "total_living_area",
+							"value": "2000",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/regression",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"regression"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

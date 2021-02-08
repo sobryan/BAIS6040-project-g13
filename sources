@@ -1,0 +1,22 @@
+https://www.kaggle.com/c/house-prices-advanced-regression-techniques
+http://web.assess.co.polk.ia.us/web/exports/basic/res.html
+https://annefou.github.io/metos_python/02-formats/
+https://www.kaggle.com/census/rental-vacancy-rate-data-collection
+https://www.census.gov/housing/hvs/index.htmlhttps://web.stanford.edu/~jurafsky/slp3/17.pdfhttps://github.com/shreyas3108
+https://www.kaggle.com/c/house-prices-advanced-regression-techniques/notebooks?sortBy=voteCount&group=everyone&pageSize=20&competitionId=5407
+
+
+land_full			|	0.58
+bldg_full			|	0.64
+total_full			|	0.66
+main_living_area	|	0.56
+total_living_area	|	0.64
+basement_area		|	0.54
+att_garage_area		|	0.64
+bathrooms			|	0.60
+extra_fixtures		|	0.57
+fireplaces			|	0.51
+year_built			|	0.50
+
+
+
